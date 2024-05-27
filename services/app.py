@@ -30,7 +30,6 @@ raw_prompt = PromptTemplate.from_template(
 """
 )
 
-
 @app.route("/ai", methods=["POST"])
 def aiPost():
     print("Post /ai called")
